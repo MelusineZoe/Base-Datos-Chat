@@ -1,0 +1,13 @@
+chat-database/
+├── scripts/
+│   ├── 01-create-database.sql
+│   ├── 02-create-tables.sql
+│   ├── 03-insert-datos-iniciales.sql (opcional)
+│   └── 04-indexes.sql
+├── migrations/                  (si quieres usar migraciones manuales)
+├── docs/
+│   ├── modelo-relacional.png
+│   └── diagrama-er.png
+├── README.md
+├── .env.example
+└── docker-compose.yml (opcional, pero recomendado)
